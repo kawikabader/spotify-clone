@@ -1,0 +1,11 @@
+<div *ngIf="artist">
+	<header>
+		<div *ngIf="artist.images.length > 0">
+			<img class="artist-thumb img-circle" src="{{artist.images[0].url}}" alt="">
+		</div>
+		<h1>{{artist.name}}</h1>
+		<p *ngIf="artist.genres.length > 0">
+			Genres: <span *ngFor="let genre of artist.genres">{{genre}}</span>
+		</p>
+	</header>
+</div>
