@@ -43,3 +43,7 @@ app/**/*.map
 app/**/*.js
 e2e/**/*.map
 e2e/**/*.js
+Album.js
+Album.js.map
+Artist.js
+Artist.js.map
